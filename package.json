@@ -14,8 +14,7 @@
     "lint-android": "./android/gradlew -p android spotlessCheck -q",
     "lint": "yarn lint-js && yarn lint-android",
     "release": "npm login && release-it",
-    "prepare": "bob build && husky install",
-    "postinstall": "patch-package"
+    "prepare": "bob build && husky install"
   },
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -109,7 +108,6 @@
     "react-navigation-stack": "^2.9.0",
     "react-test-renderer": "^16.13.1",
     "release-it": "^15.6.0",
-    "patch-package": "6.5.1",
     "typescript": "4.8.4"
   },
   "resolutions": {
