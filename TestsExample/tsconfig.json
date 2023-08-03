@@ -1,7 +1,0 @@
-{
-  "extends": "@tsconfig/react-native/tsconfig.json",
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
-  "compilerOptions": {
-    "baseUrl": "."
-  }
-}
